@@ -39,3 +39,9 @@ cat users.csv | path/to/checker.pl && echo OK || echo NG
 - 解答は、`origin` の `master` に push してください
 - 間違っている commit とその修正の commit 以外の変更履歴を書き換えてはいけません
   - それ以外に、余分な commit があったり、commit が消えていたりすると NG です
+
+
+模範解答
+--------
+
+[模範解答を表示する](https://github.com/mixi-git-challenge/git-challenge-minesweeper/blob/solution/README.md)
