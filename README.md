@@ -33,7 +33,7 @@ $ git show 361d729:users.csv
 次に、`git show` コマンドを使って `checker.pl` を実行してみます。
 
 ```sh-session
-$ git show ${commitish}:users.csv | ./checker.pl && echo OK || echo NG
+$ git show 361d729:users.csv | ./checker.pl && echo OK || echo NG
 OK
 ``` 
 
